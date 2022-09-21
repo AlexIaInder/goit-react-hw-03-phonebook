@@ -21,7 +21,7 @@ ContactList.propTypes = {
   contacts: PropTypes.arrayOf(
     PropTypes.shape({
       name: PropTypes.string,
-      number: PropTypes.number,
+      number: PropTypes.string,
       id: PropTypes.string,
     })
   ),
